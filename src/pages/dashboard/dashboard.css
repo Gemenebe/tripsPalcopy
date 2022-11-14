@@ -1,0 +1,57 @@
+.dashboard{
+    background: #F5F5F5;
+}
+.dashboard__heading{
+    padding: 8px 0;
+    padding-left: 12rem;
+    background: #BBC1B9;
+}
+.dashboard__heading h1{
+    font-size: 24px;
+}
+.dashboard__heading p{
+    font-weight: 500;
+}
+.create__trip-dashboard{
+    background: #FFEDCC;
+    display: block;
+    float: right;
+    margin: 1rem;
+    margin-right: 2rem ;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid gray;
+    padding: 4px 8px;
+}
+.scheduled__trip-dashboard{
+    clear: both;
+    padding-left: 12rem;
+}
+.scheduled__trip-dashboard h1{
+    font-size: 18px;
+}
+.schedule__dashboard{
+    background: white;
+    width: fit-content;
+    display: flex;
+    align-items: flex-end;
+    padding: 12px;
+    border-radius: 8px;
+}
+.schedule__dashboard-img{
+    width: 4rem;
+}
+.schedule__container-dasbhoard{
+    display: flex;
+    margin-top: 1rem;
+    gap: 2rem;
+    overflow: hidden;
+}
+.schedule__info-dashboard p{
+    font-size: 14px;
+    padding: 4px;
+    font-weight: 500;
+}
+.schedule__info-dashboard img{
+    width: 10rem;
+}

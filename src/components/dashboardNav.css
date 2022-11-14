@@ -1,0 +1,42 @@
+.nav-bar{
+    background: #BBC1B9;
+    width: 11rem;
+    height: 100vh;
+    color: #805300;
+    position: fixed;
+    left: 0;
+}
+.logo{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 16px;
+    padding-bottom: 62px;
+
+}
+.nav__container{
+    display: flex;
+    width: 90%;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    padding: 8px 0;
+    border-radius: 8px;
+    padding-left: 1.1rem;
+    margin-bottom: 2rem;
+    gap: 8px;
+    color: #805300; 
+    cursor: pointer;  
+}
+.nav__container p{
+color: #805300;
+font-weight: 500;
+
+}
+.nav__selected{
+    background: #805300;
+    color: white;
+}
+.nav__selected p{
+    color: white;
+}
